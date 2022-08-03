@@ -70,35 +70,35 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("./media/loop.webp");
+  /* background-image: url("./media/loop.webp"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #content-2 {
-  background-image: url("./media/1.png");
+  /* background-image: url("./media/1.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 #content-3 {
-  background-image: url("./media/4.png");
+  /* background-image: url("./media/4.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 #content-4 {
-  background-image: url("./media/5.png");
+  /* background-image: url("./media/5.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 #content-5 {
-  background-image: url("./media/6.png");
+  /* background-image: url("./media/6.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
