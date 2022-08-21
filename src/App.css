@@ -5,10 +5,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("./media/FULL.png");
+  background-image: url("./media/desktop.black.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .content {
@@ -19,7 +20,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.3);
+   
   margin: 2rem 0;
   border-radius: 25px;
   padding: 1rem;
@@ -64,16 +65,24 @@
 }
 
 .welcome-text {
+  text-align: center;
   min-height: 400px;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-image: url("./media/loop.webp"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.welcome-text h1 {
+  font-size: 5rem;
+}
+
+.welcome-text p {
+  font-size: 2.5rem;
 }
 
 #content-2 {

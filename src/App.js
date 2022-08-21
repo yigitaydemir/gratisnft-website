@@ -1,4 +1,5 @@
 import './App.css';
+import Typewriter from "typewriter-effect"; 
 
 function App() {
   return (
@@ -16,7 +17,15 @@ function App() {
 
         <div className='welcome-text'>
           <h1>Welcome to the Gratis NFT Website</h1>
-          <p>"Greatest of All Bots"</p>
+          <Typewriter 
+            onInit={(typewriter) => {
+              typewriter.typeString("Hello Youtube")
+              .pauseFor(2000)
+              .deleteAll()
+              .typeString("Subscribe")
+              .start();
+            }}
+          />
         </div>
       </div>
       
